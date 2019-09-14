@@ -4,6 +4,7 @@
     <list default="true" id="33e5ec8e-3b39-44c4-bffd-e76fa2c5db76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568497126049</updated>
       <workItem from="1568497127723" duration="5211000" />
+      <workItem from="1568502508124" duration="164000" />
+      <workItem from="1568505267881" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="initializing repository.">
       <created>1568499055713</created>
@@ -112,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568502248968</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed rubygems description error.">
+      <created>1568502607159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568502607159</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +133,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -133,7 +145,8 @@
     <MESSAGE value="initializing repository." />
     <MESSAGE value="added file." />
     <MESSAGE value="fixed bugs and modified README." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed bugs and modified README." />
+    <MESSAGE value="fixed rubygems description error." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed rubygems description error." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

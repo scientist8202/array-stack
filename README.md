@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/array-stack.svg)](https://badge.fury.io/rb/array-stack)
 # ArrayStack
 
 An array-based stack data structure class. The stack operations work for 
