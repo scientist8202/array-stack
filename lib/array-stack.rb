@@ -14,7 +14,7 @@ class ArrayStack
     @size  = 0
     @array = []
     if (!value.nil?) then
-      (self.push(value))
+      (self.push(value.dup()))
     end
 
   end
@@ -30,9 +30,14 @@ class ArrayStack
   # Pushes an element on the ArrayStack's array and increments the size
   # instance variable.
   # @param element: the object the ArrayStack is taking.
+  # @return the duplicated "element" object.
   def push(element)
-    @array.push(element)
+
+    duplicate = element.dup()
+    @array.push(element.dup())
     @size += 1
+    return duplicate
+
   end
 
   # pop.
@@ -63,16 +68,17 @@ class ArrayStack
   end
 
   # top.
-  # Getter method. Returns the ArrayStack's top value.
+  # Getter method. Returns the ArrayStack's top object duplicate.
   def top()
-    @array.last()
+    @array.last().dup()
   end
 
   # array=().
   # Deeply copies the ArrayStack and assigns.
+  # @return Returns nil.
   def array=(array_stack)
     if (!array_stack.instance_of?(ArrayStack))
-      raise(RuntimeError, "the argued value #{array_stack} is not an ArrayStack instance.")
+      raise(RuntimeError, "the argued object #{array_stack} is not an ArrayStack instance.")
     end
     if (size() > 0) then
       pop(size())
@@ -81,6 +87,7 @@ class ArrayStack
       push(element.dup())
     end
     self.size = array_stack.size()
+    return nil
   end
 
   private
@@ -93,8 +100,17 @@ class ArrayStack
 
   protected
 
-  # array.
-  # Getter method. Returns the ArrayStack's size.
-  attr_reader :array
+  # array().
+  # Getter method. Returns a duplicate ArrayStack.
+  def array()
+
+    duplicate = ArrayStack.new
+    for object in @array
+      duplicate.push(object.dup())
+      duplicate.size += 1
+    end
+    return duplicate
+
+  end
 
 end

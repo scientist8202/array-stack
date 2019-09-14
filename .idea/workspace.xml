@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e5ec8e-3b39-44c4-bffd-e76fa2c5db76" name="Default Changelist" comment="" />
+    <list default="true" id="33e5ec8e-3b39-44c4-bffd-e76fa2c5db76" name="Default Changelist" comment="added file.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-stack-1.0.0.gem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/array-stack.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/array-stack.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/array-stack_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/array-stack_test.rb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568497126049</updated>
-      <workItem from="1568497127723" duration="2208000" />
+      <workItem from="1568497127723" duration="4904000" />
     </task>
     <task id="LOCAL-00001" summary="initializing repository.">
       <created>1568499055713</created>
@@ -94,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568499055713</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added file.">
+      <created>1568499408871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568499408872</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,10 +126,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initializing repository." />
-    <option name="LAST_COMMIT_MESSAGE" value="initializing repository." />
+    <MESSAGE value="added file." />
+    <option name="LAST_COMMIT_MESSAGE" value="added file." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/array_stack@ArrayStackTest.rcov" NAME="ArrayStackTest Coverage Results" MODIFIED="1568499316052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="array-stack" />
+    <SUITE FILE_PATH="coverage/array_stack@ArrayStackTest.rcov" NAME="ArrayStackTest Coverage Results" MODIFIED="1568500040689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="array-stack" />
   </component>
 </project>

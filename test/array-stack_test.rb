@@ -20,13 +20,16 @@ class ArrayStackTest < Minitest::Test
   # test argument initialize.
   # Initializes an ArrayStack object, passing the value 2. Asserts the ArrayStack
   # object is an ArrayStack class instance. Asserts the size is one and the
-  # value pushed was 2.
+  # value pushed was 2. Asserts the numerical object pushed was the
+  # referred object "value_object".
   def test_argument_initialize
 
-    array_stack = ArrayStack.new(2)
+    value_object = 2
+    array_stack  = ArrayStack.new(value_object)
     assert_instance_of(ArrayStack, array_stack)
     assert_equal(1, array_stack.size())
     assert_equal(2, array_stack.top())
+    assert_same(value_object, array_stack.top())
 
   end
 

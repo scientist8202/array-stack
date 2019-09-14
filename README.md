@@ -1,20 +1,23 @@
 # ArrayStack
 
-An array-based stack data structure class. The class consists seven public methods, one private method, and one 
-protected method. Initialization includes two instance variables: `@array` and `@size`. The public methods are the 
-`size()` method, the `initialize(value = nil)` 
-method, the `empty?()` method, the `push()` method, the `pop(amount = 1)` 
-method, the `top()` method, and the `array=(array_stack)` method. The `size=(value)`
- method is private, and the `array()` method was `protected`. The class was 
- basically tested. The `pop()` method deeply copies all objects excluding 
- Fixnum objects.
+An array-based stack data structure class. The stack operations work for 
+non-atomic objects. The class consists seven public methods, one private 
+method, and one protected method. Initialization includes two instance 
+variables: `@array` and `@size`. The public methods are the `size()` method, 
+the `initialize(value = nil)` method, the `empty?()` method, the `push()` 
+method, the `pop(amount = 1)` method, the `top()` method, and the 
+`array=(array_stack)` method. The `size=(value)` method is private, and the
+`array()` method was `protected`. The `initialize(value = nil` method, the 
+`push()` method, the `top()` method, the `array=(array_stack)` method, and 
+the `array()` method deeply copies either the arguments or the return objects. 
+The class was basically tested. 
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'array-stack', '1.0.0'
+gem 'array-stack', '1.1.0'
 ```
 
 And then execute:
@@ -106,6 +109,13 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 Bug reports and pull requests are welcome on GitHub at https://github.com/scientist8202/array-stack. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+### Documentation errors
+In the case there is a mistake in the documentation, private message 
+scientist8202 and give: 
+
+* mistake description
+* relevant code line numbers
 
 ## License
 
