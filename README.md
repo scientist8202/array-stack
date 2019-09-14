@@ -17,7 +17,7 @@ The class was basically tested.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'array-stack', '1.1.0'
+gem 'array-stack', '1.2.0'
 ```
 
 And then execute:

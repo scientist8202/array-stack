@@ -9,13 +9,17 @@ Gem::Specification.new do |spec|
   spec.email   = ["bradleytannor@gmail.com"]
 
   spec.summary     = %q{An array-based stack data structure class.}
-  spec.description = %q{The class consists seven public methods, one private method, and one
-protected method. Initialization includes two instance variables: `@array` and `@size`. The public methods are the
-`size()` method, the `initialize(value = nil)`
-method, the `empty?()` method, the `push()` method, the `pop(amount = 1)`
-method, the `top()` method, and the `array=(stack)` method. The `size=(value)`
- method is private, and the `array()` method was `protected`. The class was
- basically tested. The `pop()` method has one bug, and improvements are coming.}
+  spec.description = %q{The stack operations work for
+non-atomic objects. The class consists seven public methods, one private
+method, and one protected method. Initialization includes two instance
+variables: `@array` and `@size`. The public methods are the `size()` method,
+the `initialize(value = nil)` method, the `empty?()` method, the `push()`
+method, the `pop(amount = 1)` method, the `top()` method, and the
+`array=(array_stack)` method. The `size=(value)` method is private, and the
+`array()` method was `protected`. The `initialize(value = nil` method, the
+`push()` method, the `top()` method, the `array=(array_stack)` method, and
+the `array()` method deeply copies either the arguments or the return objects.
+The class was basically tested. }
   spec.homepage    = "https://github.com/scientist8202/array-stack"
   spec.license     = "MIT"
 
